@@ -42,7 +42,7 @@ public class Main {
                         System.out.print("ID: ");
                         String id = scanner.nextLine();
                         System.out.print("Capacidade de Carga (kg): ");
-                        double cap = Double.parseDouble(scanner.nextLine());
+                        double cap = Double.parseDouble(scanner.nextLine().replace(",", "."));
 
                         if (tipo.equals("1")) {
                             System.out.print("Placa: ");
@@ -51,7 +51,7 @@ public class Main {
                             gerenciador.cadastrarTransporte(caminhao);
                         } else if (tipo.equals("2")) {
                             System.out.print("Altitude Máxima (m): ");
-                            double alt = Double.parseDouble(scanner.nextLine());
+                            double alt = Double.parseDouble(scanner.nextLine().replace(",", "."));
                             Drone drone = new Drone(id, cap, alt);
                             gerenciador.cadastrarTransporte(drone);
                         } else {
@@ -66,7 +66,7 @@ public class Main {
                         System.out.print("Destino: ");
                         String dest = scanner.nextLine();
                         System.out.print("Distância (km): ");
-                        double dist = Double.parseDouble(scanner.nextLine());
+                        double dist = Double.parseDouble(scanner.nextLine().replace(",", "."));
                         System.out.print("É prioritária? (S/N): ");
                         boolean prio = scanner.nextLine().equalsIgnoreCase("s");
 
