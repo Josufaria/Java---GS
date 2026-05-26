@@ -27,6 +27,7 @@ O projeto está organizado nos seguintes pacotes:
 3. Abra o projeto em uma IDE (IntelliJ, Eclipse, VSCode) ou compile via terminal.
 4. Execute a classe `app.Main` para interagir com o menu.
 
-## Autoria / Integrantes
-- Josué Faria - (Preencha com o RM se necessário)
-- (Outros Integrantes - RM)
+## Integrantes
+- Josué Faria - RM 563819
+- Sofia Bomeny - RM 563270
+- Vitor Bugallo - RM 562208
